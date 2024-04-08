@@ -22,14 +22,14 @@ So, you can run a house by choose between initial parameters, and explore things
 - evaluate which house strategies are more efective?
 - which kind of games make the house win more often?
 - which kind of odds strategies make the house more prolific?
-- 
+- what happens to distribution of players if we start to sign off players with less than $x, and add another player in his place?
 
 
 ## The structure
 
 The **house** has a lot of **games** going on, which each **player** can set **bets** upon for certain amount of time until the realization of the **game** (the winner is chosen).
 
-Each game is an event with a **probability** for 2 outcomes for winner: Team A or Team B.
+Each **game** is an event with a **probability** for 2 outcomes for winner: Team A or Team B.
 
 The house holds an estimate of winner for each game, which is not necessarily the true probability.
 
